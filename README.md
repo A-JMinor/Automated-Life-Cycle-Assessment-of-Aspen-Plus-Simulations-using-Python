@@ -1,4 +1,4 @@
-# Automated-Life-Cycle-Assessment-from-Aspen-Plus-using-Python
+# Automated-Life-Cycle-Assessment-of-Aspen-Plus-Simulations-using-Python
 This repository (casestudy2.ipynb) provides a **hands-on, end-to-end example** of how to perform a **transparent, parametric, and uncertainty-aware Life Cycle Assessment (LCA)** of a chemical process simulated in **Aspen Plus**, automated entirely from **Python**.
 
 The tutorial case focuses on ε-caprolactam (CL) purification from water (functional unit: *1 kg purified CL*), comprising:
