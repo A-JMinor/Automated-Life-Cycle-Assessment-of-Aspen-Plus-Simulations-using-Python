@@ -1,7 +1,7 @@
 # Automated-Life-Cycle-Assessment-from-Aspen-Plus-using-Python
 This repository provides a **hands-on, end-to-end example** of how to perform a **transparent, parametric, and uncertainty-aware Life Cycle Assessment (LCA)** of a chemical process simulated in **Aspen Plus**, automated entirely from **Python**.
 
-The tutorial case focuses on **ε-caprolactam (CL) purification from water** (functional unit: *1 kg purified CL*), comprising:
+The tutorial case focuses on ε-caprolactam (CL) purification from water (functional unit: *1 kg purified CL*), comprising:
 - one distillation column with reflux drum, condenser, and kettle reboiler,
 - one evaporator,
 - one pump, and
@@ -15,7 +15,7 @@ The workflow demonstrates how to:
 4. Define discrete and continuous parameters for scenario and sensitivity analyses, and 
 5. Run the LCA using **Brightway2** and **lca-algebraic**, including parameter analysis, discrete/continuous choices, and Monte Carlo uncertainty propagation.
 
-This codebase extends the **automation strategy developed in our Nylon-6 → caprolactam LCA study**, providing a **compact, reproducible exemplar** for others to learn, adapt, and extend toward their own process assessments.
+This codebase provides a compact, reproducible exemplar for others to learn, adapt, and extend toward their own process assessments.
 
 ---
 
@@ -46,14 +46,14 @@ The notebook walks through all LCA stages step by step.
 ---
 
 #### 4. Parameterized Sensitivity Analysis
-Includes both **discrete** and **continuous** parameters to illustrate uncertainty handling:
+Includes both discrete and continuous parameters to illustrate uncertainty handling:
 
 - **Discrete parameter:**  
   - Electricity source → switch between *German grid mix* and *wind power* datasets  
 
 - **Continuous parameters:**  
   - Plant operating years  
-  - Capacity factor / annual utilization  
+  - Capacity factor 
 
 All parameters are processed via lca-algebraic’s symbolic engine, allowing automated sensitivity and Monte-Carlo analyses.
 
