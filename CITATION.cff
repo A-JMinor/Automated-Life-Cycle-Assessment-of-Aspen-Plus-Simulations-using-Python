@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository in academic work, please cite the associated paper below."
+title: "Automated Life Cycle Assessment of Aspen Plus Simulations using Python"
+type: software
+authors:
+  - family-names: "Minor"
+    given-names: "Ann-Joelle"
+url: "https://github.com/A-JMinor/Automated-Life-Cycle-Assessment-of-Aspen-Plus-Simulations-using-Python"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Minor"
+      given-names: "Ann-Joelle"
+    - family-names: "Goldhahn"
+      given-names: "Ruben"
+    - family-names: "Ganzer"
+      given-names: "Caroline"
+    - family-names: "Lejeune"
+      given-names: "Michaël"
+    - family-names: "Rihko-Struckmann"
+      given-names: "Liisa"
+    - family-names: "Sundmacher"
+      given-names: "Kai"
+  title: "Parametric Life Cycle Assessment of Chemical Recycling of Nylon-6 to Caprolactam"
+  journal: "Environmental Science & Technology"
+  year: 2026
+  volume: 60
+  issue: 8
+  start: 6770
+  end: 6783
+  doi: "10.1021/acs.est.5c16101"
