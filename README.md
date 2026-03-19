@@ -66,3 +66,14 @@ All parameters are processed via lca-algebraic’s symbolic engine, allowing aut
   - re-simulation of process behavior,
   - regeneration of all stream and utility demands,
   - full recalculation of environmental impacts.
+
+## Citation
+
+If you use this repository, its code, or adaptations of it in academic work or published research, please cite:
+
+Minor, A.-J.; Goldhahn, R.; Ganzer, C.; Lejeune, M.; Rihko-Struckmann, L.; Sundmacher, K.
+Parametric Life Cycle Assessment of Chemical Recycling of Nylon-6 to Caprolactam.
+Environmental Science & Technology 2026, 60 (8), 6770–6783.
+https://doi.org/10.1021/acs.est.5c16101
+
+Citation metadata are also provided in `CITATION.cff`.
